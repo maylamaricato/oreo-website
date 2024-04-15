@@ -18,6 +18,12 @@ html{
     --black-color: #000;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*section 1 */
 
 .section-1{
@@ -46,3 +52,62 @@ html{
 /*fim da logo*/
 
 /*navbar*/
+
+.navbar{
+    position: absolute;
+    top: 3rem;
+    right: 10%;
+}
+
+.navbar-link{
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0 3rem;
+    color: var(--black-color);
+}
+
+.navbar-link:hover{
+    transform: scale(1.2);
+}
+
+/*fim da navbar*/
+
+/*banner*/
+.section-1-banner{
+    flex-direction: column;
+}
+
+.section-1-banner h1{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.section-1-banner p{
+    font-size:4rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    margin: 6rem 0 4rem 0;
+}
+
+.section-1-banner span{
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.section-1-banner button{
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    background-color: var(--black-color);
+    color:var(--primary-color);
+    font-weight: 400;
+    letter-spacing: .1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.section-1-banner button:hover{
+    transform: scale(1.1);
+}
